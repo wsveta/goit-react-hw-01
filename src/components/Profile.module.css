@@ -1,0 +1,45 @@
+.profileCard {
+  width: 400px;
+  border: 3px solid grey;
+  border-radius: 20px;
+  text-align: center;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.profileImage {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 200px;
+  background-color: grey;
+  border-radius: 50%;
+}
+
+.user {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.userName,
+.userLocation {
+  color: darkgrey;
+}
+.stats {
+    margin-top: 20px;
+  display: flex;
+  list-style: none;
+}
+
+.stats li {
+  padding: 15px;
+  width: calc(100% / 3);
+  border-top: 2px solid darkgrey;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+}
+
+.stats li:nth-child(2) {
+  border-left: 2px solid darkgrey;
+  border-right: 2px solid darkgrey;
+}
+
