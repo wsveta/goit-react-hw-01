@@ -1,5 +1,5 @@
 import { Profile } from './Profile';
-import { FriendListItem } from './FriendListItem';
+import { FriendList } from './FriendList';
 import { TransactionHistory } from './TransactionHistory';
 import userData from "../userData.json";
 import friends from "../friends.json";
@@ -15,7 +15,7 @@ import transactions from '../transactions.json';
             image={userData.avatar}
             stats={userData.stats}
           />
-          <FriendListItem friends={friends} />
+          <FriendList friends={friends} />
           <TransactionHistory items={transactions} />
         </>
       );
